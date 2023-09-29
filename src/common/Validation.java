@@ -22,7 +22,7 @@ public class Validation {
                 a = sc.nextDouble();
                 break;
             } catch (InputMismatchException e) {
-                System.err.println("Please input number cyka blyat");
+                System.err.println("Please input number");
             }
         }
         return a;
